@@ -1,38 +1,56 @@
 .App {
   text-align: center;
-}
+  font-family: Helvetica, sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: 	#ff9c3f;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.siteTitle {
+    color: #5e1616;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0.3em 0 0.5em 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.finder{
+  margin: 0.5em 0  0.5em 0;
+  background-color: #5e1616;
+  color: 	#ff9c3f;
+  font-size: large;
+  height: 2em;
 }
+
+.finder:hover{
+  cursor: pointer;
+}
+
+.imgFound{
+  height: 20em;
+  width: 40em;
+  margin: 1em;
+}
+
+.App-footer{
+  background-color: 	#ff9c3f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.pads{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
