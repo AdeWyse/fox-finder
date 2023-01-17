@@ -10,7 +10,6 @@ function App() {
   const find = () => {
       axios.get("https://randomfox.ca/floof/").then((response) => {
         setPhoto(response.data.image);
-        console.log(response.data.link);
     });
   }
   return (
