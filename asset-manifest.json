@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fox-finder/static/css/main.cc61118f.css",
+    "main.css": "/fox-finder/static/css/main.d837b17f.css",
     "main.js": "/fox-finder/static/js/main.f269f921.js",
     "static/js/787.5a8eefdf.chunk.js": "/fox-finder/static/js/787.5a8eefdf.chunk.js",
     "index.html": "/fox-finder/index.html",
-    "main.cc61118f.css.map": "/fox-finder/static/css/main.cc61118f.css.map",
+    "main.d837b17f.css.map": "/fox-finder/static/css/main.d837b17f.css.map",
     "main.f269f921.js.map": "/fox-finder/static/js/main.f269f921.js.map",
     "787.5a8eefdf.chunk.js.map": "/fox-finder/static/js/787.5a8eefdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc61118f.css",
+    "static/css/main.d837b17f.css",
     "static/js/main.f269f921.js"
   ]
 }
